@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "v/+9OWiwQCCWOeI4p1UMqBr9OPklDi5K6R6ap0e9EWY2VF/GyaWYV4LALD1zUM1tTsMhLZqBhhiFYXbUK/N2kQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
