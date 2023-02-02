@@ -1,3 +1,4 @@
 /.vs/
 /CalculoAPI/appsettings*.json
 /CalculoAPI/bin
+/CalculoAPI/obj

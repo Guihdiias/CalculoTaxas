@@ -1,3 +1,4 @@
 /.vs/
 /TaxasAPI/appsettings*.json
 /TaxasAPI/bin
+/TaxasAPI/obj
