@@ -95,6 +95,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Calculo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Calculo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Calculo.Application.dll": {}
+        }
       }
     }
   },
@@ -303,10 +313,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Calculo.Application/1.0.0": {
+      "type": "project",
+      "path": "../Calculo.Application/Calculo.Application.csproj",
+      "msbuildProject": "../Calculo.Application/Calculo.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Calculo.Application >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -318,11 +334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
       "projectName": "CalculoAPI",
-      "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
+      "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
       "packagesPath": "C:\\Users\\gudsilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\CalculoAPI\\CalculoAPI\\obj\\",
+      "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -342,7 +358,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Application\\Calculo.Application.csproj": {
+              "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Application\\Calculo.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

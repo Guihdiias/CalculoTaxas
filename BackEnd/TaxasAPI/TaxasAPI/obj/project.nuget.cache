@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VYy1+GVZaykHp+G31/D7AhXIHdryA9dqXI9P9lKgo4ZshMe9PxfMtImp3dT8od6YYDdCp2qyjEpsfWKUeHzRqg==",
+  "dgSpecHash": "jjVkXH7AQGT6lcuR2Oiy4+MDVdyq6/TTNYQAi0VoJHGCC6CRzpOHXbDSFHGGDSLSLNz0p+n4zoaSoENBtcGk+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
+  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

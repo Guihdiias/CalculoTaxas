@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /** @type {import('next').NextConfig} */
 /** @type {require('dotenv').config()} */
 
@@ -8,7 +7,8 @@ const nextConfig = {
         styledComponents: true,
     },
     env: {
-        BASE_URL: process.env.BASE_URL,
+        TAXA_URL: process.env.TAXA_URL,
+        CALCULO_URL: process.env.CALCULO_URL,
     },
 };
 

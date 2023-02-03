@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Taxas.Application.Interfaces;
 
 namespace TaxasAPI.Controllers
 {
@@ -6,10 +8,16 @@ namespace TaxasAPI.Controllers
     [Route("[controller]")]
     public class TaxasController : ControllerBase
     {
-        [HttpGet(Name = "taxa")]
-        public double Taxa()
+        private readonly ITaxas _taxas;
+        public TaxasController(ITaxas taxas)
         {
-            double taxa = 0.01;
+            _taxas = taxas;
+        }
+
+        [HttpGet(Name = "taxa")]
+        public double GetTaxa()
+        {
+            double taxa = _taxas.GetTaxa();
 
             return taxa;
         }

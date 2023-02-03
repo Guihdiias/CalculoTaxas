@@ -95,6 +95,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Taxas.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Taxas.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Taxas.Application.dll": {}
+        }
       }
     }
   },
@@ -303,12 +313,18 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Taxas.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Taxas.Application.csproj",
+      "msbuildProject": "../Application/Taxas.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "Taxas.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -318,11 +334,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
       "projectName": "TaxasAPI",
-      "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
+      "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
       "packagesPath": "C:\\Users\\gudsilva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\TaxasAPI\\TaxasAPI\\obj\\",
+      "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\TaxasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -342,7 +358,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj": {
+              "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

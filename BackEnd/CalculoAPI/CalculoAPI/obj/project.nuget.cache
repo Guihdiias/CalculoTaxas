@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v/+9OWiwQCCWOeI4p1UMqBr9OPklDi5K6R6ap0e9EWY2VF/GyaWYV4LALD1zUM1tTsMhLZqBhhiFYXbUK/N2kQ==",
+  "dgSpecHash": "R8PWAUhMHBYlXU1zfbxNEa2zUOr8wc6n4dFUM6tRkeWeCZXLRi8mqe0Ntrb9y/TEbbl/gyBxIuwF4zvHRDC9LQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
+  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI\\CalculoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

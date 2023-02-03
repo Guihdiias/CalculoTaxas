@@ -1,35 +1,66 @@
+using Calculo.Application.Interfaces;
 using CalculoAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
+using System.Net.Http.Headers;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CalculoAPI.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
     public class CalculaJurosController : ControllerBase
     {
-        delegate double LogicalOperator(double valorInicial, double taxaJuros, int tempo);
-
-        static double Operacao(double valorInicial, double taxaJuros, int tempo)
+        private readonly ICalculaJuros _calculajuros;
+        public CalculaJurosController(ICalculaJuros calculajuros)
         {
-            return valorInicial * Math.Pow((1 + taxaJuros), tempo);
-        }
-        static double Calculo(LogicalOperator op, double valorInicial, double taxaJuros, int tempo)
-        {
-            return op(valorInicial, taxaJuros, tempo);
+            _calculajuros = calculajuros;
         }
 
         [HttpGet(Name = "calculajuros")]
         public string CalcularJuros([FromQuery] double valorInicial, double taxaJuros, int tempo)
         {
-            double calc = Calculo(Operacao, valorInicial, taxaJuros, tempo);
-            NumberFormatInfo nfi = new NumberFormatInfo();
-            nfi.NumberDecimalDigits = 2;
-            nfi.NumberDecimalSeparator = ".";
-            string resultado = calc.ToString("F", nfi);
-
-            return resultado;
+            return _calculajuros.CalcularJuros(valorInicial, taxaJuros, tempo);
         }
+        //static async Task<string> GetTaxa()
+        //{
+        //    var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:49174/taxas");
+
+        //    using (var client = new HttpClient())
+        //    {
+        //        var response = await client.SendAsync(request);
+        //        var contentResp =await response.Content.ReadAsStringAsync();    
+        //    }
+        //    return "";
+        //}
+        //public async Task<double> GetTaxa()
+        //{
+
+        //    using (var client = new HttpClient())
+        //    {
+        //        try
+        //        {
+        //            var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:49174/");
+
+        //            var response =  await client.SendAsync(request);
+        //            var contentResp =await response.Content.ReadAsStringAsync();    
+        //            if (response.IsSuccessStatusCode)
+        //            {
+        //                var content = await response.Content.ReadAsStringAsync();
+
+        //                //double.TryParse(content, out double result);
+        //                return 0;
+        //            }
+        //        }
+        //        catch (Exception ex)    
+        //        {
+        //            return 0;
+        //        }
+        //        return 0;
+
+        //    }
+        //}
 
     }
 }
