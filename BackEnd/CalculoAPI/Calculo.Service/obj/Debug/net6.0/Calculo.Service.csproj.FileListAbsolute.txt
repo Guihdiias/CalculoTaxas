@@ -1,0 +1,15 @@
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.AssemblyInfo.cs
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\bin\Debug\net6.0\Calculo.Service.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\bin\Debug\net6.0\Calculo.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\bin\Debug\net6.0\Calculo.Service.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\bin\Debug\net6.0\Calculo.Domain.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\bin\Debug\net6.0\Calculo.Domain.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.csproj.CopyComplete
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\refint\Calculo.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\Calculo.Service.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Service\obj\Debug\net6.0\ref\Calculo.Service.dll

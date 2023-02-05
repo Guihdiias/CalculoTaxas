@@ -1894,29 +1894,43 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Taxas.Application/1.0.0": {
+      "Taxas.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Taxas.Application.dll": {}
+          "bin/placeholder/Taxas.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Taxas.Application.dll": {}
+          "bin/placeholder/Taxas.Domain.dll": {}
         }
       },
-      "TaxasAPI/1.0.0": {
+      "Taxas.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Taxas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Taxas.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Taxas.Service.dll": {}
+        }
+      },
+      "TaxasAPI.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.0",
           "Swashbuckle.AspNetCore": "6.2.3",
-          "Taxas.Application": "1.0.0"
+          "Taxas.Domain": "1.0.0",
+          "Taxas.Service": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TaxasAPI.dll": {}
+          "bin/placeholder/TaxasAPI.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TaxasAPI.dll": {}
+          "bin/placeholder/TaxasAPI.Application.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -6423,22 +6437,26 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Taxas.Application/1.0.0": {
+    "Taxas.Domain/1.0.0": {
       "type": "project",
-      "path": "../Application/Taxas.Application.csproj",
-      "msbuildProject": "../Application/Taxas.Application.csproj"
+      "path": "../Taxas.Domain/Taxas.Domain.csproj",
+      "msbuildProject": "../Taxas.Domain/Taxas.Domain.csproj"
     },
-    "TaxasAPI/1.0.0": {
+    "Taxas.Service/1.0.0": {
       "type": "project",
-      "path": "../TaxasAPI/TaxasAPI.csproj",
-      "msbuildProject": "../TaxasAPI/TaxasAPI.csproj"
+      "path": "../Taxas.Service/Taxas.Service.csproj",
+      "msbuildProject": "../Taxas.Service/Taxas.Service.csproj"
+    },
+    "TaxasAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../TaxasAPI/TaxasAPI.Application.csproj",
+      "msbuildProject": "../TaxasAPI/TaxasAPI.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
-      "Taxas.Application >= 1.0.0",
-      "TaxasAPI >= 1.0.0",
+      "TaxasAPI.Application >= 1.0.0",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6471,11 +6489,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj": {
-              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj"
-            },
-            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj": {
-              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj"
+            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.Application.csproj"
             }
           }
         }

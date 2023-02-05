@@ -96,14 +96,27 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Taxas.Application/1.0.0": {
+      "Taxas.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Taxas.Application.dll": {}
+          "bin/placeholder/Taxas.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Taxas.Application.dll": {}
+          "bin/placeholder/Taxas.Domain.dll": {}
+        }
+      },
+      "Taxas.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Taxas.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Taxas.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Taxas.Service.dll": {}
         }
       }
     }
@@ -314,17 +327,23 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Taxas.Application/1.0.0": {
+    "Taxas.Domain/1.0.0": {
       "type": "project",
-      "path": "../Application/Taxas.Application.csproj",
-      "msbuildProject": "../Application/Taxas.Application.csproj"
+      "path": "../Taxas.Domain/Taxas.Domain.csproj",
+      "msbuildProject": "../Taxas.Domain/Taxas.Domain.csproj"
+    },
+    "Taxas.Service/1.0.0": {
+      "type": "project",
+      "path": "../Taxas.Service/Taxas.Service.csproj",
+      "msbuildProject": "../Taxas.Service/Taxas.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Swashbuckle.AspNetCore >= 6.2.3",
-      "Taxas.Application >= 1.0.0"
+      "Taxas.Domain >= 1.0.0",
+      "Taxas.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -333,9 +352,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
-      "projectName": "TaxasAPI",
-      "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.Application.csproj",
+      "projectName": "TaxasAPI.Application",
+      "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.Application.csproj",
       "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -354,8 +373,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj": {
-              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj"
+            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Taxas.Domain\\Taxas.Domain.csproj": {
+              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Taxas.Domain\\Taxas.Domain.csproj"
+            },
+            "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Taxas.Service\\Taxas.Service.csproj": {
+              "projectPath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Taxas.Service\\Taxas.Service.csproj"
             }
           }
         }

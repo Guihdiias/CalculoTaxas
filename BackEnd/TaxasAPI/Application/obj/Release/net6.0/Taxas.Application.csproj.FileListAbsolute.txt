@@ -1,0 +1,12 @@
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\bin\Release\net6.0\Taxas.Application.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\bin\Release\net6.0\Taxas.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\bin\Release\net6.0\Taxas.Application.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.AssemblyInfo.cs
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\refint\Taxas.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\Taxas.Application.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Application\obj\Release\net6.0\ref\Taxas.Application.dll

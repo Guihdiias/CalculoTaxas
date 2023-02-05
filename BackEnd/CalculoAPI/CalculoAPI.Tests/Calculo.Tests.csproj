@@ -21,8 +21,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Calculo.Application\Calculo.Application.csproj" />
-  </ItemGroup>
-
 </Project>

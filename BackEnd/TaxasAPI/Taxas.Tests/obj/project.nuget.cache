@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KBPIXE1sVRef7gtyKB/HQDunE1MQd2dmx7eocySN41fjv9qaiF+klskXPiOqXQ4RcIM9cwmAAh4oQ8UYYsFTPg==",
+  "dgSpecHash": "irkcqVDq7FOF9o+omhXLIfnD88eyvRBKH9GyH7Fw1EX2pqSS69zeyahmq4H8qPavJwrgpizyzyLCHzyxugEYkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Taxas.Tests\\Taxas.Tests.csproj",
   "expectedPackageFiles": [

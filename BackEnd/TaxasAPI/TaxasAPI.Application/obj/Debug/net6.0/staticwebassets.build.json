@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Qt8bNkHolDwfVvvZ+zCL5gfEZVz1jYtV1AadVkv7Okw=",
+  "Source": "TaxasAPI.Application",
+  "BasePath": "_content/TaxasAPI.Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

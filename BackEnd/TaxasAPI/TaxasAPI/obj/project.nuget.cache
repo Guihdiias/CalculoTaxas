@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r71Ei1Ean2cyKqRX99MqjuiMYvMbks45Cw44EHvBTFY+cRhix034zIJH3KyJ+mFCokEb7wrVWTFUhWsX9Gw5hw==",
+  "dgSpecHash": "2fth4wU5RBmTukYJsPN6S6t5eMYn20VjwnYLAX6/W+4zx91zOekYaDFnSrjRU2JSjamgZozNv6ogQ7TQ8id77Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\TaxasAPI\\TaxasAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\vitor\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

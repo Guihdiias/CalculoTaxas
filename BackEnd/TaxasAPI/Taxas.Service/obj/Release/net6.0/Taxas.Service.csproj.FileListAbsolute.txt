@@ -1,0 +1,15 @@
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\bin\Release\net6.0\Taxas.Service.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\bin\Release\net6.0\Taxas.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\bin\Release\net6.0\Taxas.Service.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\bin\Release\net6.0\Taxas.Domain.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\bin\Release\net6.0\Taxas.Domain.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.AssemblyInfo.cs
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.csproj.CopyComplete
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\refint\Taxas.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\Taxas.Service.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\Taxas.Service\obj\Release\net6.0\ref\Taxas.Service.dll

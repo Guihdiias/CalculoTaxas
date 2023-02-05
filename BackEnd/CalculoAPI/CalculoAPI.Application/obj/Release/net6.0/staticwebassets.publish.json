@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "m2jUb5nfEk11D/LZgsy5YBow+jIHN2JMLc8Z6JeYAHg=",
+  "Source": "CalculoAPI.Application",
+  "BasePath": "_content/CalculoAPI.Application",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

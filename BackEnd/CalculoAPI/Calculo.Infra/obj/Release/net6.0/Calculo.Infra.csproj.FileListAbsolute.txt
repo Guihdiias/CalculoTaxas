@@ -1,0 +1,15 @@
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\bin\Release\net6.0\Calculo.Infra.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\bin\Release\net6.0\Calculo.Infra.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\bin\Release\net6.0\Calculo.Infra.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\bin\Release\net6.0\Calculo.Domain.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\bin\Release\net6.0\Calculo.Domain.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.AssemblyInfo.cs
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.csproj.CopyComplete
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\refint\Calculo.Infra.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\Calculo.Infra.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Infra\obj\Release\net6.0\ref\Calculo.Infra.dll

@@ -1,0 +1,13 @@
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\TaxasAPI.Application.exe
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\TaxasAPI.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\TaxasAPI.Application.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\TaxasAPI.Application.runtimeconfig.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\TaxasAPI.Application.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Microsoft.OpenApi.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Taxas.Domain.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Taxas.Service.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Taxas.Domain.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\TaxasAPI\TaxasAPI.Application\obj\Docker\publish\Taxas.Service.pdb

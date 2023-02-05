@@ -22,8 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Taxas.Application.csproj" />
-    <ProjectReference Include="..\TaxasAPI\TaxasAPI.csproj" />
+    <ProjectReference Include="..\TaxasAPI\TaxasAPI.Application.csproj" />
   </ItemGroup>
 
 </Project>
