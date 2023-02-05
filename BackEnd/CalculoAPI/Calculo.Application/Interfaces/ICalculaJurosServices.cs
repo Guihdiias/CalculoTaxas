@@ -1,6 +1,6 @@
 ﻿namespace Calculo.Application.Interfaces
 {
-    public interface ICalculaJuros
+    public interface ICalculaJurosServices
     {
        string CalcularJuros(double valorInicial, double taxaJuros, int tempo);
     }

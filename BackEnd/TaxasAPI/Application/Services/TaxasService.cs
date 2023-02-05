@@ -2,7 +2,7 @@
 
 namespace Taxas.Application.Services
 {
-    public class TaxasService : ITaxas 
+    public class TaxasService : ITaxasService 
     {
         public double GetTaxa()
         {

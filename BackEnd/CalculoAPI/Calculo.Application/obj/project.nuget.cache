@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FaXYRj4cQUS03qCtWk1IIWKOzD7XfV7bWzcaUd43KOk2YZlln7CBpOxGErtLkwfZ1qAeOq5Z+PTHpV/V6R0U7Q==",
+  "dgSpecHash": "Pmre7fC6sqkM6AydiioCan8ONs+d2s0cHmXVb67Yu26foM7yF9gn37lpgeNSSnkiPrP2+oozVKh0ngDizWzVOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Application\\Calculo.Application.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\CalculoAPI\\Calculo.Application\\Calculo.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

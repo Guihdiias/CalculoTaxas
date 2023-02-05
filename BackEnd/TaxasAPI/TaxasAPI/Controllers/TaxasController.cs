@@ -8,18 +8,18 @@ namespace TaxasAPI.Controllers
     [Route("[controller]")]
     public class TaxasController : ControllerBase
     {
-        private readonly ITaxas _taxas;
-        public TaxasController(ITaxas taxas)
+        private readonly ITaxasService _taxas;
+        public TaxasController(ITaxasService taxas)
         {
             _taxas = taxas;
         }
 
         [HttpGet(Name = "taxa")]
-        public double GetTaxa()
+        public object GetTaxa()
         {
             double taxa = _taxas.GetTaxa();
 
-            return taxa;
+            return new { taxa = taxa };
         }
 
     }

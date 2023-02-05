@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L7P+GeibOKWLDve+BfxxLbhE2nrQaP7mbc34lbvEnsMlyIPWE3LwfD4DeL3uGzZ5GOUN/OMp5QVuKF7D/X+QOg==",
+  "dgSpecHash": "1WFXTZTESoAK7kJFp+azxpe+5CSltHZz6brBhPBbS1SQUvKgiT+lIisIu6Fap29cutGRnQsk+bHZ+ACV648z2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj",
+  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\TaxasAPI\\Application\\Taxas.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

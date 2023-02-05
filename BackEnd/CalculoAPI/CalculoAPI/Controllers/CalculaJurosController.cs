@@ -1,4 +1,5 @@
 using Calculo.Application.Interfaces;
+using Calculo.Application.Services;
 using CalculoAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
@@ -9,31 +10,35 @@ namespace CalculoAPI.Controllers
 {
     
     [ApiController]
-    [Route("[controller]")]
+    [Route("")]
     public class CalculaJurosController : ControllerBase
     {
-        private readonly ICalculaJuros _calculajuros;
-        public CalculaJurosController(ICalculaJuros calculajuros)
+        private readonly ICalculaJurosServices _calculajurosServices;
+        public CalculaJurosController(ICalculaJurosServices calculajuros)
         {
-            _calculajuros = calculajuros;
+            _calculajurosServices = calculajuros;
         }
 
-        [HttpGet(Name = "calculajuros")]
+        [HttpGet("calculajuros")]
         public string CalcularJuros([FromQuery] double valorInicial, double taxaJuros, int tempo)
         {
-            return _calculajuros.CalcularJuros(valorInicial, taxaJuros, tempo);
+            return _calculajurosServices.CalcularJuros(valorInicial, taxaJuros, tempo);
         }
-        //static async Task<string> GetTaxa()
-        //{
-        //    var request = new HttpRequestMessage(HttpMethod.Get, "https://localhost:49174/taxas");
 
-        //    using (var client = new HttpClient())
-        //    {
-        //        var response = await client.SendAsync(request);
-        //        var contentResp =await response.Content.ReadAsStringAsync();    
-        //    }
-        //    return "";
-        //}
+        [HttpGet("getTaxa")]
+        public string GetTaxa()
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://pokeapi.co/api/v2/pokemon/ditto");
+
+            using (var client = new HttpClient())
+            {
+                var response = client.Send(request);
+                var contentResp = response.Content.ReadAsStringAsync().Result;
+            }
+
+
+            return "";
+        }
         //public async Task<double> GetTaxa()
         //{
 

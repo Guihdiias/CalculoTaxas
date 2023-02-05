@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Calculo.Application.Services
 {
-    public class CalculaJurosService : ICalculaJuros
+    public class CalculaJurosService : ICalculaJurosServices
     {
         delegate double LogicalOperator(double valorInicial, double taxaJuros, int tempo);
 

@@ -1,7 +1,7 @@
 ﻿namespace Taxas.Application.Interfaces
 {
 
-    public interface ITaxas
+    public interface ITaxasService
     {
         double GetTaxa();
     }

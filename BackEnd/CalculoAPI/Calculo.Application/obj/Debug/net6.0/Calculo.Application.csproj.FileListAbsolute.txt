@@ -10,3 +10,15 @@ C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Application\ob
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\refint\Calculo.Application.dll
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.pdb
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\ref\Calculo.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\bin\Debug\net6.0\Calculo.Application.deps.json
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\bin\Debug\net6.0\Calculo.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\bin\Debug\net6.0\Calculo.Application.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.csproj.AssemblyReference.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.AssemblyInfoInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.AssemblyInfo.cs
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\refint\Calculo.Application.dll
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\Calculo.Application.pdb
+C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Application\obj\Debug\net6.0\ref\Calculo.Application.dll

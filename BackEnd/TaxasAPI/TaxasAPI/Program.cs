@@ -1,3 +1,6 @@
+using Taxas.Application.Interfaces;
+using Taxas.Application.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,7 +8,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("CorsPolicy",
                       policy =>
-                      policy.WithOrigins("http://localhost:80/", "http://localhost:3000/","https://localhost:49159/", "http://localhost:49159/")
+                      policy.WithOrigins("*")
                       .AllowAnyOrigin()
                       .AllowAnyMethod()
                       .AllowAnyHeader());
@@ -14,6 +17,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ITaxasService, TaxasService>();
 
 var app = builder.Build();
 
@@ -24,7 +28,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
