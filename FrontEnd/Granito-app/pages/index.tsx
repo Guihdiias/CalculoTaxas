@@ -12,6 +12,7 @@ export default function Home() {
         valorInicial: 0,
         tempo: 0,
     });
+    const [erroTempo, setErroTempo] = useState<boolean>(false);
     const [valorFinal, setValorFinal] = useState<number>(0)
     const handleChangeParams = (prop: any) => (value: any) => { 
         setParams({ ...params, [prop]: value });
@@ -20,6 +21,10 @@ export default function Home() {
         const response = await api.get(`${taxaURL}buscartaxajuroscompostos`)       
     }
     const getCalculo = () => {
+        if(params.tempo % 1 !== 0)
+        {
+
+        }
         api.post(`${calculoURL}CalculaJuros`,params)
         .then(response => {
             setValorFinal(response.data);
@@ -48,6 +53,7 @@ export default function Home() {
                 <div className="flex flex-col justify-center w-56">
                     <Input onChange={handleChangeParams('valorInicial')}  placeholder="valor"/>
                     <Input onChange={handleChangeParams('tempo')}  placeholder="meses"/>
+                    <p style={{color:"red", display:`${params.tempo % 1 !== 0 ? 'block': 'none'}`}}>insira um numero inteiro para o parametro meses</p>
                     <div className="w-56 mt-3 flex justify-center">
                         <button onClick={handleClick} type="button" className="h-10 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 ml-2 mb-2">Calcular</button>
                     </div>
@@ -55,7 +61,7 @@ export default function Home() {
             </div> 
             <div className='w-full text-start flex flex-col ml-24'>
                 <p>Valor Inicial: {params.valorInicial}</p><br />               
-                <p>Tempo: {params.tempo} meses </p><br />  
+                <p>Tempo/meses: {params.tempo}</p><br />  
                 <p><b>Valor Final: {valorFinal}</b></p>
             </div>
         </div>
