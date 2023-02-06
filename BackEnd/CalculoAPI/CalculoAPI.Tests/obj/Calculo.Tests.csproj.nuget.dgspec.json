@@ -4,14 +4,14 @@
     "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj": {
+    "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj",
-        "projectName": "Calculo.Tests",
-        "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj",
+        "projectName": "Calculo.Domain",
+        "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj",
         "packagesPath": "C:\\Users\\gudsilva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,9 +44,152 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj",
+        "projectName": "Calculo.Service",
+        "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj",
+        "packagesPath": "C:\\Users\\gudsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gudsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj": {
+                "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj",
+        "projectName": "Calculo.Tests",
+        "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\Calculo.Tests.csproj",
+        "packagesPath": "C:\\Users\\gudsilva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\CalculoAPI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gudsilva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj": {
+                "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Domain\\Calculo.Domain.csproj"
+              },
+              "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj": {
+                "projectPath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

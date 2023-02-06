@@ -24,7 +24,6 @@ namespace Calculo.Service.Servicos
         {
             juros.TaxaJuros = _servicoExterno.BuscarDados<TaxaJuros, object>(null);
             ValidarEntrada(juros, Activator.CreateInstance<ValidacaoJuros>());
-            
 
             double calc = Calculo(Operacao, juros);
             return calc;
