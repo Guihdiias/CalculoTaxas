@@ -87,8 +87,6 @@ C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\D
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Application.dll
-C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Application.pdb
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\Calculo.Tests.csproj.AssemblyReference.cache
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\Calculo.Tests.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\Calculo.Tests.AssemblyInfoInputs.cache
@@ -212,3 +210,15 @@ C:\Users\gudsilva\Desktop\TesteGranito\CalculoTaxas-main\BackEnd\CalculoAPI\Calc
 C:\Users\gudsilva\Desktop\TesteGranito\CalculoTaxas-main\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\Calculo.Tests.csproj.CopyComplete
 C:\Users\gudsilva\Desktop\TesteGranito\CalculoTaxas-main\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\Calculo.Tests.genruntimeconfig.cache
 C:\Users\gudsilva\Desktop\TesteGranito\CalculoTaxas-main\BackEnd\CalculoAPI\CalculoAPI.Tests\obj\Debug\net6.0\ref\Calculo.Tests.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Moq.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Domain.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Service.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Domain.pdb
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\CalculoAPI.Tests\bin\Debug\net6.0\Calculo.Service.pdb

@@ -24,8 +24,8 @@ namespace CalculoAPI.Tests
         {
             TaxaJuros taxaJuros = new TaxaJuros { ValorTaxa = 0.01};
             Juros juros = new Juros { ValorInicial = 100, Tempo = 5, TaxaJuros = taxaJuros };
-            var ValorFinal = _servicoCalcular.Calcular(juros);
-            Assert.Equal(105.10, ValorFinal);
+            var ValorFinal = _servicoCalcular.Operacao(juros);
+            Assert.Equal("105,10", ValorFinal);
         }
     }
 }

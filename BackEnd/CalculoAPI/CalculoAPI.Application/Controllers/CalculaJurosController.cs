@@ -28,7 +28,7 @@ namespace CalculoAPI.Application.Controllers
         public string CalcularJuros([FromBody] JurosModel jurosModel)
         {
             var juros = _mapper.Map<Juros>(jurosModel);
-            return _servico.Calcular(juros).ToString("N2");
+            return _servico.Calcular(juros);
         }
 
 

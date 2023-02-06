@@ -6,6 +6,6 @@ namespace Calculo.Domain.Interfaces
             where TValidacao : AbstractValidator<TEntrada>
             where TEntrada : class
     {
-        double Calcular(TEntrada inputModel);
+        string Calcular(TEntrada inputModel);
     }
 }

@@ -20,12 +20,12 @@ namespace Calculo.Service.Servicos
             _servicoExterno = servicoExterno;
         }
 
-        public double Calcular(Juros juros)
+        public string Calcular(Juros juros)
         {
             juros.TaxaJuros = _servicoExterno.BuscarDados<TaxaJuros, object>(null);
             ValidarEntrada(juros, Activator.CreateInstance<ValidacaoJuros>());
 
-            double calc = Calculo(Operacao, juros);
+            string calc = Calculo(Operacao, juros);
             return calc;
         }
 
@@ -33,15 +33,15 @@ namespace Calculo.Service.Servicos
 
 
 
-        delegate double LogicalOperator(Juros juros);
+        delegate string LogicalOperator(Juros juros);
 
-        static double Operacao(Juros juros)
+        public string Operacao(Juros juros)
         {
             double taxaJuros = juros.TaxaJuros?.ValorTaxa ?? 0;
 
-            return juros.ValorInicial * Math.Pow((1 + taxaJuros), juros.Tempo);
+            return (juros.ValorInicial * Math.Pow((1 + taxaJuros), juros.Tempo)).ToString("N2");
         }
-        static double Calculo(LogicalOperator op, Juros juros)
+        static string Calculo(LogicalOperator op, Juros juros)
         {
             return op(juros);
         }
