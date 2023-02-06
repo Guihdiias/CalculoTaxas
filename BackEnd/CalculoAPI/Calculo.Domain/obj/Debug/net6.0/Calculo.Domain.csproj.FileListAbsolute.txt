@@ -10,3 +10,15 @@ C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Domain\o
 C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\refint\Calculo.Domain.dll
 C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.pdb
 C:\Users\vitor\Documents\GitHub\CalculoTaxas\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\ref\Calculo.Domain.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\bin\Debug\net6.0\Calculo.Domain.deps.json
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\bin\Debug\net6.0\Calculo.Domain.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\bin\Debug\net6.0\Calculo.Domain.pdb
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.csproj.AssemblyReference.cache
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.AssemblyInfoInputs.cache
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.AssemblyInfo.cs
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.csproj.CoreCompileInputs.cache
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\refint\Calculo.Domain.dll
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\Calculo.Domain.pdb
+C:\Users\gudsilva\Desktop\TesteGranito\BackEnd\CalculoAPI\Calculo.Domain\obj\Debug\net6.0\ref\Calculo.Domain.dll

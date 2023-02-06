@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5mebZJfk9TzbJ7L79/jbQBBod5FFZp1SN0xyzOVzJ8Gq8LlIPLJW6cjMI61jnKayVFpEtx9diUGAPjEWcd+JjA==",
+  "dgSpecHash": "1CDFCSX/XEQE3Ywk7sk0m7NdaUtwS3Kccu8ihHRRacJHip3LSbu7FQaFxvADyArXfIeYCU6QjFVz5TzXY4gn8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vitor\\Documents\\GitHub\\CalculoTaxas\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj",
+  "projectFilePath": "C:\\Users\\gudsilva\\Desktop\\TesteGranito\\BackEnd\\CalculoAPI\\Calculo.Service\\Calculo.Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vitor\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
-    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\vitor\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\vitor\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\gudsilva\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\gudsilva\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

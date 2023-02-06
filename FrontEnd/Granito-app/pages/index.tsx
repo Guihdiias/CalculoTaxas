@@ -10,7 +10,6 @@ export default function Home() {
     const [calculoURL, setCalculoURL] = useState(process.env.CALCULO_URL);
     const [params, setParams] = useState({
         valorInicial: 0,
-        taxaJuros: 0,
         tempo: 0,
     });
     const [valorFinal, setValorFinal] = useState<number>(0)
@@ -18,13 +17,10 @@ export default function Home() {
         setParams({ ...params, [prop]: value });
     };
     const getTaxaJuros = async () => {
-        const response = await api.get(`${taxaURL}Taxas`)
-        setParams({ ...params, taxaJuros: response.data });
+        const response = await api.get(`${taxaURL}buscartaxajuroscompostos`)       
     }
     const getCalculo = () => {
-        api.get(`${calculoURL}CalculaJuros`,{
-        params
-        })
+        api.post(`${calculoURL}CalculaJuros`,params)
         .then(response => {
             setValorFinal(response.data);
         })
@@ -36,11 +32,11 @@ export default function Home() {
         getCalculo();
       };
 
-      useEffect(() =>{
-        if(params.taxaJuros == 0)
-            getTaxaJuros();
-      },[params.taxaJuros]);
-      useEffect(() =>{},[valorFinal]);
+    //   useEffect(() =>{
+    //     if(params.taxaJuros == 0)
+    //         getTaxaJuros();
+    //   },[params.taxaJuros]);
+    //   useEffect(() =>{},[valorFinal]);
 
       
       return ( 
@@ -58,8 +54,7 @@ export default function Home() {
                 </div>       
             </div> 
             <div className='w-full text-start flex flex-col ml-24'>
-                <p>Valor Inicial: {params.valorInicial}</p><br />
-                <p>Taxa: {params.taxaJuros * 100}% </p><br />
+                <p>Valor Inicial: {params.valorInicial}</p><br />               
                 <p>Tempo: {params.tempo} meses </p><br />  
                 <p><b>Valor Final: {valorFinal}</b></p>
             </div>
